@@ -37,7 +37,7 @@ HEADING
 }
 
 h1 {
-  font-family: 'Megrim';
+  font-family: 'Megrim', sans-serif;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 0.85em;
   margin: -15px 0 0;
   font-weight: normal;
@@ -59,7 +59,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   background-color: #588881;
 }
 
@@ -153,21 +153,18 @@ PAGE: Contact
   margin: 0 0 10px;
 }
 
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
+.contact-info li.linked a {
+  background-image: url('../img/in.png');
 }
 
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
+.contact-info li.insta a {
+  background-image: url('../img/ig.png');
 }
 
-.contact-info li.twitter a {
-  background-image: url('../img/twit.png');
+.contact-info li.git a {
+  background-image: url('../img/git.png');
 }
 
-.contact-info li.face a {
-  background-image: url('../img/face.png');
-}
 
 /*******************************************
 COLORS
