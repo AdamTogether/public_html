@@ -28,7 +28,6 @@ h3 {
 }
 
 div .branding-watermark {
-  visibility: hidden !important;
   opacity: 0 !important;
 }
 
